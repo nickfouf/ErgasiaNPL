@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ergasiainnlp"
+version = "0.1.0"
+description = "Project for NLP Course 2025"
+authors = ["NICK FOUFOPOULOS <your-email@example.com>"]
+readme = "README.md"
+package-mode = false  # <-- Η ΝΕΑ ΓΡΑΜΜΗ
+
+[tool.poetry.dependencies]
+python = ">=3.11, <3.14"
+numpy = "^2.3.3"
+scikit-learn = "^1.7.2"
+matplotlib = "^3.10.6"
+transformers = "^4.56.2"
+language-tool-python = "^2.9.4"
+happytransformer = "^3.0.0"
+torch = "^2.8.0"
+spacy = "^3.8.7"
+requests = "^2.32.5"
+tqdm = "^4.67.1"
+sentence-transformers = "^5.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

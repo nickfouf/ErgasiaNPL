@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Conda environment files
+/nlp-env/
+
+# Poetry virtualenv
+.venv/
+
+# IDE files
+.idea/
+.vscode/
